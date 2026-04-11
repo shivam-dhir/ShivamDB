@@ -1,0 +1,9 @@
+# ninja log v7
+2	557	7975679784013993	CMakeFiles/shivamdb.dir/src/shivamdb.cpp.obj	1753b09e3ac0e624
+6	605	7975679784053994	CMakeFiles/shivamdb_cli.dir/cli/main.cpp.obj	2ea321a89a2733a0
+558	665	7975679789569665	shivamdb.lib	835b4c207431f8e8
+665	1687	7975679790635019	shivamdb_cli.exe	7906876735775f45
+4	670	7975682111124879	CMakeFiles/shivamdb_cli.dir/cli/main.cpp.obj	2ea321a89a2733a0
+671	999	7975682117791899	shivamdb_cli.exe	7906876735775f45
+3	907	7975701497631061	CMakeFiles/shivamdb_cli.dir/cli/main.cpp.obj	2ea321a89a2733a0
+908	1160	7975701506677049	shivamdb_cli.exe	7906876735775f45

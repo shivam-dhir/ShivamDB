@@ -1,0 +1,4 @@
+D:/apps/VisualStudio_Workspace/C++/ShivamDB/build/CMakeFiles/shivamdb.dir
+D:/apps/VisualStudio_Workspace/C++/ShivamDB/build/CMakeFiles/shivamdb_cli.dir
+D:/apps/VisualStudio_Workspace/C++/ShivamDB/build/CMakeFiles/edit_cache.dir
+D:/apps/VisualStudio_Workspace/C++/ShivamDB/build/CMakeFiles/rebuild_cache.dir
