@@ -3,12 +3,15 @@
 #include <string>
 #include <unordered_map>
 #include <optional>
+#include "shivamdb/wal.h"
 
 namespace shivamdb {
 
     class ShivamDB {
         public:
-            ShivamDB() = default;
+
+			// Creates a new ShivamDB instance with an optional WAL file path. If no path is provided, it defaults to "data/wal.log". The constructor initializes the WAL instance and replays any existing WAL records to restore the database state.
+            explicit ShivamDB(const std::string& wal_path = "data/wal.log");
 
             // Sets the value for the given key. If the key already exists, it will overwrite the existing value.
             void set(const std::string& key, const std::string& value);
@@ -31,6 +34,7 @@ namespace shivamdb {
         private:
             // Internal storage for key-value pairs. Using an unordered_map for efficient lookups.
             std::unordered_map<std::string, std::string> store_;
+			std::unique_ptr<WAL> wal_;
     };
 
 }

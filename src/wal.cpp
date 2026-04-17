@@ -5,12 +5,16 @@
 #include <stdexcept>
 
 namespace shivamdb {
+	//anonymous namespace is used to define helper functions that are only needed within this source file. This prevents name clashes and keeps the global namespace clean.
     namespace {
 
+		// Helper functions to write and read data in a consistent binary format. These functions handle the serialization and deserialization of basic types like uint8_t and uint32_t, ensuring that the WAL records are stored in a compact and efficient manner.
+		// uint8_t is used to represent the operation type (Set or Delete) as a single byte, while uint32_t is used to store the sizes of the key and value, allowing for keys and values up to 4GB in size.
         void write_uint8(std::ofstream& out, std::uint8_t value) {
             out.write(reinterpret_cast<const char*>(&value), sizeof(value));
         }
 
+		// uint32_t is used to store the sizes of the key and value, allowing for keys and values up to 4GB in size. This is important for ensuring that the WAL can handle large keys and values without running into issues with size limitations.
         void write_uint32(std::ofstream& out, std::uint32_t value) {
             out.write(reinterpret_cast<const char*>(&value), sizeof(value));
         }

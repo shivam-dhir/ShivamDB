@@ -1,4 +1,6 @@
 D:/apps/VisualStudio_Workspace/C++/ShivamDB/out/build/x64-debug/CMakeFiles/shivamdb.dir
 D:/apps/VisualStudio_Workspace/C++/ShivamDB/out/build/x64-debug/CMakeFiles/shivamdb_cli.dir
+D:/apps/VisualStudio_Workspace/C++/ShivamDB/out/build/x64-debug/CMakeFiles/shivamdb_tests.dir
+D:/apps/VisualStudio_Workspace/C++/ShivamDB/out/build/x64-debug/CMakeFiles/test.dir
 D:/apps/VisualStudio_Workspace/C++/ShivamDB/out/build/x64-debug/CMakeFiles/edit_cache.dir
 D:/apps/VisualStudio_Workspace/C++/ShivamDB/out/build/x64-debug/CMakeFiles/rebuild_cache.dir

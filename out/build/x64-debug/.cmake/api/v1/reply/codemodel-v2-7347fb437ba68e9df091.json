@@ -17,7 +17,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -33,7 +34,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -42,15 +44,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "shivamdb::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-shivamdb-Debug-d9af1e8f8092303b1131.json",
+					"jsonFile" : "target-shivamdb-Debug-943eb043fe66eb8940db.json",
 					"name" : "shivamdb",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "shivamdb_cli::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-shivamdb_cli-Debug-e601c55bbba47e3feb3e.json",
+					"jsonFile" : "target-shivamdb_cli-Debug-e38249e2e3d1b434e033.json",
 					"name" : "shivamdb_cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shivamdb_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shivamdb_tests-Debug-14de80b51b5940cc9591.json",
+					"name" : "shivamdb_tests",
 					"projectIndex" : 0
 				}
 			]
